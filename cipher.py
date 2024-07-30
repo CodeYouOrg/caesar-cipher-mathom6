@@ -12,5 +12,4 @@ def encryption(text):
     print(f"Your encrypted message: {cipher_text}")
 
 text = input("Enter a message to encrypt: ")
-
 encryption(text)
