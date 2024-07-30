@@ -11,5 +11,6 @@ def encryption(text):
             cipher_text += char
     print(f"Your encrypted message: {cipher_text}")
 
-text = input("Enter a message to encrypt: ")
+message = input("Enter a message to encrypt: ")
+text = message.lower()
 encryption(text)
