@@ -5,7 +5,7 @@ def encryption(text):
     for char in text:
         if char in letters:
             position = letters.index(char)
-            new_position = (position - 3)
+            new_position = (position - 5)
             cipher_text += letters[new_position]
         else:
             cipher_text += char
